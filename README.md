@@ -14,7 +14,7 @@
 </h2>
 
 <p align="center">
-  <img src="https:">
+  <img src="https://telegra.ph/file/678a9f946024b25bec2e1.jpg">
 </p>
 
 <p align="center">
@@ -26,7 +26,6 @@
 </p>
 
 <p align="center">
-  <img src="https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg">
 </p>
 
 <h3 align="center">
@@ -72,11 +71,11 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://telegram.me/brandedrajput"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/Branded_sarver123"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/about_official_Branded_op"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://telegram.me/Branded_sarver"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <h3 align="center">
