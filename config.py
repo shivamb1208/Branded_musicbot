@@ -14,19 +14,19 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ρнαηтσм 𝐗 𝐌υʂι𝐂")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Branded 𝐌υʂι𝐂")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "5174492401").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6409527937").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/itszshivam/SK_musicbot")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/happy_king_roy")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/about_skshivam")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/fun_here")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Branded_sarver1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Branded_sarver123")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -48,10 +48,10 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "3"))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
 SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "409e31d3ddd64af08cfcc3b0f064fcbe")
 VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
-SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "50"))
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
+SERVER_PLAYLIST_LIMIT = int(getenv("SERVER_PLAYLIST_LIMIT", "100"))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "75"))
 
-CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
+CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "5"))
 
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
@@ -75,34 +75,31 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/af8e81a9a3f788ddafd1c.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/c03999004944c0657ee55.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg",
+    "https://telegra.ph/file/ea0a3dc2d80e59454be21.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/af8e81a9a3f788ddafd1c.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/091ec94573c7e1d88572b.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/af8e81a9a3f788ddafd1c.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/bf82317afdbbf43967aa6.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/abfcd5d3edd7ea7cd5c1b.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/53efdc7b2dd403f60fdee.jpg"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/abfcd5d3edd7ea7cd5c1b.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/1bba1eb82deae5aa53c0a.jpg"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/abfcd5d3edd7ea7cd5c1b.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/b414e94060b9394125543.jpg"
 
-STREAM_IMG_URL = "https://telegra.ph/file/abfcd5d3edd7ea7cd5c1b.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/2e596754e83c8146f6d3f.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/9bbd09a299625701c7192.jpg"
 
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/7c457040ed02ca61bb24f.jpg"
 
-YOUTUBE_IMG_URL = "https://telegra.ph/file/af8e81a9a3f788ddafd1c.jpg"
-
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg"
-
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg"
-
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/9bbd09a299625701c7192.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/9bbd09a299625701c7192.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/9bbd09a299625701c7192.jpg"
 
 
 def time_to_seconds(time):
@@ -113,9 +110,9 @@ def time_to_seconds(time):
     )
 
 
-DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:00"))
+DURATION_LIMIT = int(time_to_seconds(f"{DURATION_LIMIT_MIN}:18000"))
 SONG_DOWNLOAD_DURATION_LIMIT = int(
-    time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:00")
+    time_to_seconds(f"{SONG_DOWNLOAD_DURATION}:18000")
 )
 
 
@@ -129,9 +126,9 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://telegra.ph/file/b11d2a1aecf02143b96c7.jpg"
+            PING_IMG_URL = "https://telegra.ph/file/9bbd09a299625701c7192.jpg"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/af8e81a9a3f788ddafd1c.jpg"
+            START_IMG_URL = "https://telegra.ph/file/1bba1eb82deae5aa53c0a.jpg"
