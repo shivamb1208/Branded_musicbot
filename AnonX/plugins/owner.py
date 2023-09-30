@@ -52,7 +52,7 @@ async def help(client: Client, message: Message):
 
 
 
-@app.on_mess
+@app.on_message(
     filters.command("repo")
     & filters.group
     & ~filters.edited & filters.group & ~filters.edited)
